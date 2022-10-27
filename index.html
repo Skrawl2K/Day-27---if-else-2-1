@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Player 1</h2>
+    <form onsubmit="return false">
+        <input placeholder="Age" type="number" name="Age" id="ageInput1">
+        <input placeholder="Size" type="number" name="Size" id="sizeInput1">
+    </form>
+    <h3 id="output1"></h3>
+
+    <h2>Player 2</h2>
+    <form onsubmit="return false">
+        <input placeholder="Age" type="number" name="Age" id="ageInput2">
+        <input placeholder="Size" type="number" name="Size" id="sizeInput2">
+    </form>
+    <h3 id="output2"></h3>
+
+    <input type="submit" onclick="game()">
+
+    <h1 id="output"></h1>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
